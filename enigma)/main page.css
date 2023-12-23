@@ -1,0 +1,108 @@
+/* Basic styling */
+body {
+    font-family: 'Franklin Gothic Medium';
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  header img {
+    float: left;
+    height: 80px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    text-align: right;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Hero section styling */
+  .hero-section {
+    background-image: url("hero-image.jpg"); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: cyan;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin-top: 100px;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background: none;
+    border: 3px solid turquoise;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 10px;    
+    margin: 100px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    color: cyan; /* Change the text color to cyan */
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust layout for smaller screens, e.g., stack elements vertically */
+  }
+  
+  /* styles.css */
+  
+  body {
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url('your-background-image.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  marquee p {
+    font-size: 18px;
+    color: #fff; /* Adjust the text color for better visibility */
+  }
